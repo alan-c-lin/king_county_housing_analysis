@@ -1,0 +1,7 @@
+# Ignore R history and temporary files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Ignore OS-specific files (macOS)
+.DS_Store
