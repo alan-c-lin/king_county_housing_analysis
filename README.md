@@ -1,4 +1,4 @@
-# King County Housing Analysis
+# King County Real Estate Data Analysis
 
 This project analyzes housing data from King County, WA, using linear regression and conformal prediction methods, including Jackknife+. The goal is to explore how various property features—such as bedrooms, bathrooms, square footage, and lot size—relate to house prices, and to quantify uncertainty in predictions. This work was originally completed as a final project for a statistics/data science course at the University of Washington and has been refined to improve clarity, reproducibility, and presentation of results.
 
