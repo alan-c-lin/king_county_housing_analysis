@@ -17,6 +17,13 @@ This project analyzes housing data from King County, WA, using linear regression
 - Jackknife+ used to create 95% prediction intervals.
 - Observed large spread in intervals due to log transformation and high coverage level.
 
+## Requirements
+
+- R (≥ 4.0)  
+- RStudio (recommended)  
+- R packages: `ggplot2`
+You can install the R package with: `install.packages("ggplot2")`
+
 ## How to Use
 
 1. Clone or download this repository.
