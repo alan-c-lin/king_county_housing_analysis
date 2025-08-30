@@ -26,7 +26,7 @@ This project analyzes housing data from King County, WA, using linear regression
 
 You can install the R package with: 
 ```r
-install.packages("ggplot2")`
+install.packages("ggplot2")
 ```
 
 ## How to Use
