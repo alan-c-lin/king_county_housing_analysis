@@ -13,16 +13,21 @@ This project analyzes housing data from King County, WA, using linear regression
 
 ## Key Points
 
-- Linear regression performed on log-transformed prices.
-- Jackknife+ used to create 95% prediction intervals.
-- Observed large spread in intervals due to log transformation and high coverage level.
+- Linear regression performed on log-transformed prices to model house value.
+- Jackknife+ applied to produce 95% prediction intervals and quantify uncertainty.
+- Analysis highlights the effect of feature selection and transformation on model performance.
+- Observed wide intervals due to log transformation and high coverage level, illustrating challenges in real-world prediction.
 
 ## Requirements
 
 - R (≥ 4.0)  
 - RStudio (recommended)  
 - R packages: `ggplot2`
-You can install the R package with: `install.packages("ggplot2")`
+
+You can install the R package with: 
+```r
+install.packages("ggplot2")
+```
 
 ## How to Use
 
