@@ -187,6 +187,8 @@ for (i in best_vars) {
 }
 ```
 
+**Figures 1–8:** Comparisons of Gaussian and bootstrap 95% confidence intervals for each predictor variable. Figure titles describe the feature being analyzed.
+
 ### Commentary on Confidence Intervals
 
 The 95% confidence intervals show notable variability in their widths across features. For some features, the bootstrap intervals are wider than the Gaussian intervals, while for others, the Gaussian intervals are wider or roughly the same.
@@ -310,6 +312,8 @@ legend("top",
        inset = c(0, -0.15),
        xpd = TRUE)
 ```
+
+**Figure 9:** First 50 Jackknife+ predicted intervals with predicted values from linear regression.
 
 The predicted values were originally computed on the $\log_{10}$ scale. Here, we transform them back to the original scale for interpretability.
 
